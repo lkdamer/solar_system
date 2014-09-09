@@ -73,7 +73,7 @@ class SolarSystem
       planet2 = pick_a_planet
     end
     dist = (planet1.sun_dist - planet2.sun_dist).abs
-    puts "The distance between #{planet1.name} and #{planet2.name} is #{dist}."
+    puts "The distance between #{planet1.name} and #{planet2.name} is #{dist} meters."
   end
 
   def quit_check(input)
